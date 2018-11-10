@@ -1,0 +1,46 @@
+html {
+}
+
+body {
+	background-color: #999999;
+}
+
+#popUpTime {
+	display: none;
+	margin-top: 10px;
+}
+
+.cell {
+	background-color: #acacac;
+	display: table-cell;
+	height: 130px;
+	width: 130px;
+}
+
+.cell div {
+	height: 17px;
+	margin: 5px;
+}
+
+.cell div:first-child {
+	color: #00ff00;
+}
+
+.cell div:nth-child(2) {
+	color: #0000ff;
+}
+
+.container {
+	height: 100px;
+	margin: auto;
+	width: 60%;
+}
+
+.row {
+	display: table-row;
+}
+
+.table {
+	border: 3px solid #ffff00;
+	display: table;
+}
